@@ -42,13 +42,14 @@
     <section id="start" class="section fullheight bg-secondary dark padding-v-60">
 
         <!-- BG Image -->
-        <div class="bg-image animated infinite zooming"><img src="/24.jpg" alt="..."></div>
+        <div class="bg-image animated infinite zooming"><img src="/final.jpg" alt="..."></div>
+
 
         <!-- Middle -->
         <div class="container container-wide v-bottom padding-v-80">
             <img src="/2.jpg" alt="..." class="img-circle margin-b-30">
             <h1 class="text-lg margin-b-0">Hi! I’m <strong>Shahrukh Khan</strong></h1>
-            <h5 class="text-tertiary margin-b-40">Senior Laravel Developer , Open source enthusiast</h5>
+            <h5 class="text-tertiary margin-b-40" style="color:#f1f1f1">Senior Laravel Developer , Open source enthusiast</h5>
             <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary"><span>Go to my resume!</span><i class="ti-arrow-down"></i></a></span>
             <a href="/shahrukh-resume.pdf" class="btn btn-link" target="_blank"><span>Download my CV</span><i class="ti-file"></i></a>
         </div>
@@ -597,6 +598,7 @@
         <!-- BG Map -->
         <div id="google-map" class="bg-image" data-latitude="28.552760" data-longitude="77.294857" data-style="light"></div>
 
+        <!-- I AM SHAHRUKH-->
         <!-- Contact Box -->
         <div class="contact-box bg-secondary dark animated" data-animation="flipInY">
             <h1>Don’t hesitate to <strong>contact me</strong>!</h1>
@@ -614,10 +616,7 @@
                 <li><a href="https://www.linkedin.com/in/shahrukh-khan?authType=NAME_SEARCH&authToken=Luvy&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A118120583%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1475154002717%2Ctas%3Ashahrukh%20khan" class="icon icon-circle icon-xs icon-linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://plus.google.com/u/0/+ShahrukhKhanCEO" class="icon icon-circle icon-xs icon-google-plus" target="_blank"><i class="fa fa-twitter"></i></a></li>
             </ul>
-            {{--<h5>Like me on Facebook</h5>
-            <!-- FB Like -->
-            <div class="fb-like" data-href="http://www.facebook.com/suelopl" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>--}}
-        </div>
+          </div>
 
     </section>
     <!-- Section - Contact / End -->
