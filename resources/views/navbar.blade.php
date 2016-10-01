@@ -12,7 +12,7 @@
             <li><a href="/#resume"><span>Resume</span></a></li>
             <li><a href="/#portfolio"><span>Portfolio</span></a></li>
             <li><a href="/#testimonials"><span>Testimonials</span></a></li>
-            <li><a href="/#blog"><span>Latest Posts</span></a></li>
+            <li><a href="/blog"><span>Blog</span></a></li>
             <li><a href="/#contact"><span>Contact</span></a></li>
         </ul>
         <!-- Social Media -->
