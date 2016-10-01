@@ -62,7 +62,7 @@ a:hover, a:focus,
 .text-tertiary,
 .btn-tertiary:hover, .btn-tertiary:focus,
 .icon-tertiary.icon-hover:hover, .icon-tertiary.icon-hover:focus {
-	color: #caa669; 
+	color: #caa669;
 }
 
 .bg-tertiary,
@@ -70,6 +70,6 @@ a:hover, a:focus,
 .icon-circle.icon-tertiary,
 .progress-bar-tertiary,
 .te-tertiary:before {
-	background-color: #caa669; 
+	background-color: #caa669;
 }
 
