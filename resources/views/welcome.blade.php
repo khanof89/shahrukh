@@ -526,7 +526,7 @@
     <!-- Section - Testimonials / End -->
 
     <!-- Section - Latest Posts -->
-    <section id="posts" class="section bg-grey padding-v-60">
+    {{--<section id="posts" class="section bg-grey padding-v-60">
 
         <!-- Content -->
         <div class="container container-wide">
@@ -609,7 +609,7 @@
 
         </div>
 
-    </section>
+    </section>--}}
     <!-- Section - Latest Posts / End -->
 
     <!-- Section - Contact -->
