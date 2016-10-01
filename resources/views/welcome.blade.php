@@ -171,7 +171,7 @@
                             <span class="speciality-icon"><i class="text-muted-2x ti-desktop"></i></span>
                             <div class="speciality-content">
                                 <h5 class="margin-b-0">Application Development</h5>
-                                <p class="speciaity-description">Great, modern website designs.</p>
+                                <p class="speciaity-description">Clean and interactive. </p>
                             </div>
                         </div>
                         <!-- Speciality -->
@@ -179,7 +179,7 @@
                             <span class="speciality-icon"><i class="text-muted-2x ti-layers-alt"></i></span>
                             <div class="speciality-content">
                                 <h5 class="margin-b-0">Website Development</h5>
-                                <p class="speciaity-description">Great, modern website designs.</p>
+                                <p class="speciaity-description">Great modern website designs.</p>
                             </div>
                         </div>
                         <!-- Speciality -->
@@ -187,7 +187,7 @@
                             <span class="speciality-icon"><i class="text-muted-2x ti-mobile"></i></span>
                             <div class="speciality-content">
                                 <h5 class="margin-b-0">Responsive design</h5>
-                                <p class="speciaity-description">Great, modern website designs.</p>
+                               {{-- <p class="speciaity-description">Great, modern website designs.</p>--}}
                             </div>
                         </div>
                     </div>
@@ -311,113 +311,104 @@
                 <div class="masonry-sizer col-lg-3 col-sm-6 col-xs-12"></div>
 
                 <!-- Masonry Element -->
-                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square01.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="development masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square02.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-vertical01.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
-                <div class="webdesign masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-vertical02.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masonry Element -->
                 <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-horizontal01.jpg" alt="" /></a>
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/4.png" alt="" /></a>
                             <div class="item-hover bg-dark dark">
                                 <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                    <a href="http://acchakhana.com/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
+                            <a href="#" class="title">Online Food Delivery</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/5.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                     <a href="https://www.nocharge.in/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Online Mobile Recharge</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/2.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                     <a href="#" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Corporate Website</a>
+                            <span class="caption text-muted">Client's Page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="development masonry-item margin-b-30 col-lg-6 col-sm-6 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/3.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="https://www.itsmuzikal.com/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Online Music Website</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="webdesign masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/6.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                     <a href="http://verisiteglobal.com/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Corporate Website</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/1.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://www.easywagen.com/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Travel Portal</a>
+                            <span class="caption text-muted">Home Page</span>
                         </div>
                     </div>
                 </div>
                 <!-- Masonry Element -->
-                <div class="graphic masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
-                    <div class="gallery-item">
-                        <div class="item-photo">
-                            <a href="projects/project-example-it.html" data-target="ajax-modal"><img src="assets/img/projects/project-square03.jpg" alt="" /></a>
-                            <div class="item-hover bg-dark dark">
-                                <div class="item-hover-content">
-                                    <a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
-                                    <a href="http://www.suelo.pl" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item-title">
-                            <a href="projects/project-example-it.html" class="title">Corporate Identity Mockup</a>
-                            <span class="caption text-muted">Mockups</span>
-                        </div>
-                    </div>
-                </div>
+
             </div>
 
         </div>
@@ -442,10 +433,10 @@
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
-                            Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida.
+                            "It's been a real pleasure working with Shahrukh. He is responsible and dexterous in his web developing work.  and Highly Recommended..."
                         </div>
                         <div class="testimonial-author testimonial-with-photo">
-                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar01.jpg" alt="" /></div>
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar01.jpg" alt="" /></div>
                             <div class="testimonial-author-txt">
                                 <span class="name">Kanak Manjari</span>
                                 <span class="caption text-secondary">DIPI</span>
@@ -455,10 +446,10 @@
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
-                            Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.
+                            "He delivered a high quality work within the tight deadlines and I am going to assign them some more projects in near future."
                         </div>
                         <div class="testimonial-author testimonial-with-photo">
-                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar02.jpg" alt="" /></div>
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar02.jpg" alt="" /></div>
                             <div class="testimonial-author-txt">
                                 <span class="name">Lalit Kakrualia</span>
                                 <span class="caption text-secondary">DIPI</span>
@@ -470,11 +461,10 @@
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
-                            Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.<br><br>
-                            Aenean ac tincidunt augue, volutpat ullamcorper elit.
+                           "He is very efficient and specialized in developing the application. Thanks to him for helping us and increasing our sales."
                         </div>
                         <div class="testimonial-author testimonial-with-photo">
-                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar03.jpg" alt="" /></div>
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar03.jpg" alt="" /></div>
                             <div class="testimonial-author-txt">
                                 <span class="name">Tom Savio</span>
                                 <span class="caption text-secondary">KIT Solution</span>
@@ -486,13 +476,43 @@
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                            "High quality work and reliable.All the best!"
                         </div>
                         <div class="testimonial-author testimonial-with-photo">
-                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
                             <div class="testimonial-author-txt">
                                 <span class="name">Fahad Iqbal Ahmad Khan</span>
                                 <span class="caption text-secondary">Self-Employeed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Testimonial -->
+                    <div class="testimonial testimonial-dark">
+                        <div class="testimonial-content font-alt">
+                            "Fulfilled my requirements completely. "
+                        </div>
+                        <div class="testimonial-author testimonial-with-photo">
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
+                            <div class="testimonial-author-txt">
+                                <span class="name">Manish Paul</span>
+                                <span class="caption text-secondary">Infinity Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Testimonial -->
+                    <div class="testimonial testimonial-dark">
+                        <div class="testimonial-content font-alt">
+                            "Heading to work with him again.Keep it up !"
+                        </div>
+                        <div class="testimonial-author testimonial-with-photo">
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
+                            <div class="testimonial-author-txt">
+                                <span class="name">Michael George</span>
+                                <span class="caption text-secondary">SIPI</span>
                             </div>
                         </div>
                     </div>
