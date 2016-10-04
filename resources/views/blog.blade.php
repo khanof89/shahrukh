@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
     <!-- Title -->
-    <title>I am Shahrukh - Blog</title>
+    <title>I am Shahrukh - Blog | {{$result->title}}</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="/assets/img/favicon.png">
@@ -38,43 +38,57 @@
 <!-- Content -->
 <div id="content" class="bg-grey">
 
-    <!-- Section - Latest Posts -->
-    <section id="posts" class="section bg-grey padding-v-60">
+    <!-- Section - Post -->
+    <section id="post" class="section bg-grey padding-t-20 padding-b-60">
 
         <!-- Content -->
         <div class="container container-wide">
 
-            <h6 class="margin-b-50">Blog Page</h6>
+            <nav class="text-center margin-b-20">
+                <a href="/blog" class="icon icon-circle icon-hover icon-sm icon-primary"><i class="ti-arrow-left"></i></a>
+            </nav>
 
-            <div class="row masonry">
-                <!-- Masonry Sizer -->
-                <div class="masonry-sizer col-lg-4 col-sm-6 col-xs-12"></div>
-                <!-- Masonry Element / Post -->
-                @foreach($results as $result)
-                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12">
+            <div class="row">
+                <!-- Post -->
+                <article class="post col-lg-10 col-lg-push-1">
                     <div class="post-photo">
                         <img src="{{$result->picture}}" alt="...">
                     </div>
-                    <div class="post-content animated" data-animation="fadeInUp">
+                    <div class="post-content">
                         <div class="meta">
-                            <span><i class="fa fa-comment"></i><a href="#">{{($result->comments) ? count($result->comments) : 'No comments'}}</a></span>
-                            <span><i class="fa fa-user"></i><a href="#">Shahrukh</a></span>
+                            <span><i class="fa fa-user"></i><a href="#">Shahrukh Khan</a></span>
                             <span><i class="fa fa-tag"></i><a href="#">{{$result->tags[0]->value[0]->name}}</a></span>
                         </div>
                         <div class="date">{{$result->created_at->format('l jS \\of F Y')}}</div>
-                        <h1><a href="/blog/{{$result->id}}/{{Illuminate\Support\Str::slug($result->title)}}">{{$result->title}}</a></h1>
-                        <p>{!! substr($result->story, 0, 150) !!}</p>
-                        <a href="/blog/{{$result->id}}/{{Illuminate\Support\Str::slug($result->title)}}" class="btn btn-primary btn-xs"><span>Read more</span><i class="ti-arrow-right"></i></a>
+                        <h1>{{$result->title}}</h1>
+                        {!! $result->story !!}
                     </div>
-                </article>
-                @endforeach
-                <!-- Masonry Element / Post -->
-            </div>
 
-            <!-- Pagination -->
-            <nav class="text-center">
-                {!! $results->render() !!}
-            </nav>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-push-1">
+                            <!-- Comments -->
+                            <div id="disqus_thread"></div>
+                            <script type="text/javascript">
+                                /* * * CONFIGURATION VARIABLES * * */
+                                var disqus_shortname = 'iamshahrukh';
+
+                                /* * * DON'T EDIT BELOW THIS LINE * * */
+                                (function() {
+                                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                })();
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+                                </noscript>
+                        </div>
+
+                    </div>
+                    </div>
+
+
+                </article>
+            </div>
 
         </div>
 
@@ -151,16 +165,19 @@
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+<!--
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
 
-  ga('create', 'UA-85128507-1', 'auto');
-  ga('send', 'pageview');
-
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
 </script>
+-->
 
 </body>
 
