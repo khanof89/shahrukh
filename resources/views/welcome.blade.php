@@ -330,6 +330,40 @@
                 <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
                     <div class="gallery-item">
                         <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/7.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://aamadmipartynews.com/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Political Blog</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/8.png" alt="" /></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://dealweal.in/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="#" class="title">Offers Blog</a>
+                            <span class="caption text-muted">Home Page</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="development masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="gallery-item">
+                        <div class="item-photo">
                             <a href="#" data-target="ajax-modal"><img src="/assets/img/projects/5.png" alt="" /></a>
                             <div class="item-hover bg-dark dark">
                                 <div class="item-hover-content">
