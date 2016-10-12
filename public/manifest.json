@@ -1,0 +1,7 @@
+{
+  "name": "I am Shahrukh",
+  "short_name": "Notification from Shahrukh",
+  "gcm_sender_id": "592259574876",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
