@@ -82,3 +82,10 @@ Route::get('/', function () {
     });
 
     Route::post('contact-form', 'WelcomeController@contact');
+
+    Route::get('tag/{tag}', 'BlogController@getPostsByTag');
+
+    Route::get('push', 'WelcomeController@push');
+
+
+
