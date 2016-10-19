@@ -65,6 +65,7 @@
 			} 
 			function fn1(x)
 			{ 
+				event.preventDefault();
 				c=document.getElementById("num").value;
 				document.getElementById("num").value=parseInt(c)+1; 
 				c=document.getElementById("num").value;
@@ -87,6 +88,7 @@
 			
 			function fn2(x)
 			{
+				event.preventDefault();
 				c=document.getElementById("num").value;
 				if(c >= 10)
 				{
