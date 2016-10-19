@@ -34,6 +34,10 @@
 			
 			
 			$( document ).ready(function() {
+  Pushwoosh.push(function(api) {
+                        api.registerDevice();
+                                });
+
 				detectmob();
 				var c=getCookie("invites");
 				if (!isNumber(c)){
@@ -80,9 +84,9 @@
 					//alert("لقد نجحت قم بالضغط على صورة التنزيل للتفعيل و التحميل");
 				alert("Then you've succeeded by clicking on the image of the download and activation and loading");
 					
-					Pushwoosh.push(function(api) {
+<!--					Pushwoosh.push(function(api) {
             		api.registerDevice();
-        			});
+        			});-->
 				}
 			}
 			
