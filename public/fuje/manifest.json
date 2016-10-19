@@ -1,0 +1,7 @@
+{
+  "name": "AI Media",
+  "short_name": "AI Media",
+  "gcm_sender_id": "573959639780",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}

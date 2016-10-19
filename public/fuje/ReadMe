@@ -1,0 +1,7 @@
+1) Make sure that the website where you will host it is ssl enabled
+
+2) Upload these files on the website and visit the page. It will ask for permission, grant.
+
+3) Now go to pushwoosh dashboard and click on the app you have created, now click on send push, fill in the fields required and click on woosh, you should now see a notification on your mobile or desktop.
+
+In case you find any problem with this please let me know and I will help you.
