@@ -6,8 +6,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
+    <meta name="description" content="A freelance laravel application developer who is an open-source enthusiast and writes clean code." />
+<meta name="keywords" content="laravel application developer, freelance laravel application developer, freelancer php developer, full-stack php developer" />
+<meta name="robots" content="" />
+
     <!-- Title -->
-    <title> I am Shahrukh </title>
+    <title> I am Shahrukh | Freelance Laravel Developer </title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="/assets/img/favicon.png">
