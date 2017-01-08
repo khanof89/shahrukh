@@ -87,7 +87,6 @@ class BlogController extends Controller {
       $blog_tags->save();
     }
 
-    //for($i=0;$i<=count($categories);$i++)
     foreach($categories as $category)
     {
       $categories = new Category();
@@ -100,5 +99,25 @@ class BlogController extends Controller {
       $blog_categories->save();
     }
     return redirect()->to('/blog');
+  }
+
+  public function getPostsByTag($tag)
+  {
+    $tag = str_replace('-', ' ', $tag);
+    $tag = Tag::where('name',$tag)->first();
+    $blogTags = BlogTag::where('tag_id', $tag->id)->get();
+
+    $blogs = [];
+    foreach($blogTags as $blogTag)
+    {
+      $blogs[] = $blogTag->blog_id;
+    }
+
+    $results = Blog::whereIn('id', $blogs)->with('tags.value','categories.values', 'comments')->orderBy('id', 'DESC')->paginate(6);
+    foreach($results as $result)
+    {
+      return $result->tags[0]->value->name;
+    }
+    return view('blogs', compact('results'));
   }
 }

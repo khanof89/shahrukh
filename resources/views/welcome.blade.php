@@ -577,7 +577,7 @@
             <h1>Don’t hesitate to <strong>contact me</strong>!</h1>
             <!-- Contact List -->
             <ul class="list-unstyled list-unstyled-icons">
-                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>L-39 <br />Abul Fazal Enclave<br />Delhi, 110025</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>Delhi, 110025</li>
                 <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="#">shahrukh@iamshahrukh.com</a></li>
                 <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>+91-852-747-2679</li>
             </ul>

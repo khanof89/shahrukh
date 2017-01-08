@@ -9,7 +9,7 @@ class BlogTag extends Model {
    */
   public function value()
   {
-    return $this->hasMany('App\Models\Tag', 'id','tag_id');
+    return $this->hasOne('App\Models\Tag', 'id','tag_id');
   }
 
 }

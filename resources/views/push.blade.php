@@ -14,22 +14,26 @@
             defaultNotificationTitle: 'I am Shahrukh',
             defaultNotificationImage: 'https://cp.pushwoosh.com/img/logo-medium.png'
         }]);
-    </script>
 
-
-    <script language="text/javascript">
         Pushwoosh.push(function(api) {
-            api.getTags().then(function(result) {
-                if (!result.result['My Tag']) {
-                    return api.setTags({'My Tag': 'value'}).then(function(r) {
-                        console.log('setTags result', r);
-                    });
-                }
-            }).catch(function(e) {
-                console.log('error', e);
-            });
-        })
+
+            //Set tags for the user
+            /*api.setTags({
+             'Tag Name 1' => 'value1',
+             'Tag Name 2' => 'value2'
+             });*/
+
+            //Get tags for the user from server
+            api.getTags();
+
+            //Subscribe for push notifications. The method is called automatically upon the first visit to the website, once the user allows notifications
+            api.registerDevice();
+
+            //Unregister from notifications
+            api.unregisterDevice();
+        });
     </script>
+
     {{--<script type="text/javascript">
         (function(p,u,s,h){
             p._pcq=p._pcq||[];

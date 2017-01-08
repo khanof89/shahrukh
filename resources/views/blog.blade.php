@@ -57,7 +57,10 @@
                     <div class="post-content">
                         <div class="meta">
                             <span><i class="fa fa-user"></i><a href="#">Shahrukh Khan</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">{{$result->tags[0]->value[0]->name}}</a></span>
+
+                            @foreach($result->tags as $tag)
+                            <span><i class="fa fa-tag"></i><a href="/tag/{{\Illuminate\Support\Str::slug($tag['value']->name)}}">{{$tag['value']->name}}</a></span>
+                                @endforeach
                         </div>
                         <div class="date">{{$result->created_at->format('l jS \\of F Y')}}</div>
                         <h1>{{$result->title}}</h1>
