@@ -224,11 +224,7 @@
                                 <span class="event-name">Its Muzikal</span>
                                 <span class="event-description"></span>
                             </div>
-                            <div class="timeline-event te-primary">
-                                <span class="event-date">Nov 2015 - Present</span>
-                                <span class="event-name">Digital IP Insights</span>
-                                <span class="event-description">Senior Laravel Developer</span>
-                            </div>
+                        
                         </div>
                     </div>
 
