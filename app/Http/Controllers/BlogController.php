@@ -22,7 +22,7 @@ class BlogController extends Controller {
   public function blogs()
   {
     //list all blogs
-    $results = Blog::with('tags.value','categories.values', 'comments')->orderBy('id', 'DESC')->paginate(6);
+    $results = Blog::with('tags.tag','categories.values', 'comments')->orderBy('id', 'DESC')->paginate(6);
     return view('blogs', compact('results'));
   }
 

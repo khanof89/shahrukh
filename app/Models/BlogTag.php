@@ -7,7 +7,7 @@ class BlogTag extends Model {
   /**
    * @return \Illuminate\Database\Eloquent\Relations\HasMany
    */
-  public function value()
+  public function tag()
   {
     return $this->hasOne('App\Models\Tag', 'id','tag_id');
   }

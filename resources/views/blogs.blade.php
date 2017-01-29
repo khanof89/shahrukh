@@ -59,7 +59,11 @@
                         <div class="meta">
                             <span><i class="fa fa-comment"></i><a href="#">{{($result->comments) ? count($result->comments) : 'No comments'}}</a></span>
                             <span><i class="fa fa-user"></i><a href="#">Shahrukh</a></span>
-                            <span><i class="fa fa-tag"></i><a href="#">{{$result->tags[0]->value[0]->name}}</a></span>
+                            <span><i class="fa fa-tag"></i><a href="#">
+                                    @foreach($result->tags as $tags)
+                                        {{$tags->tag->name}}
+                                    @endforeach
+                                </a></span>
                         </div>
                         <div class="date">{{$result->created_at->format('l jS \\of F Y')}}</div>
                         <h1><a href="/blog/{{$result->id}}/{{Illuminate\Support\Str::slug($result->title)}}">{{$result->title}}</a></h1>
