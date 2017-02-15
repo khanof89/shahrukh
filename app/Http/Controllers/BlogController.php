@@ -32,7 +32,7 @@ class BlogController extends Controller {
    */
   public function blog($id)
   {
-    $result = Blog::where('id', $id)->with('tags.value', 'categories.values')->first();
+    $result = Blog::where('id', $id)->with('tags.tag', 'categories.values')->first();
     return view('blog', compact('result'));
   }
 

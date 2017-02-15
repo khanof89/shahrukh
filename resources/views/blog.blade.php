@@ -59,7 +59,7 @@
                             <span><i class="fa fa-user"></i><a href="#">Shahrukh Khan</a></span>
 
                             @foreach($result->tags as $tag)
-                            <span><i class="fa fa-tag"></i><a href="/tag/{{\Illuminate\Support\Str::slug($tag['value']->name)}}">{{$tag['value']->name}}</a></span>
+                            <span><i class="fa fa-tag"></i><a href="/tag/{{\Illuminate\Support\Str::slug($tag['tag']->name)}}">{{$tag['tag']->name}}</a></span>
                                 @endforeach
                         </div>
                         <div class="date">{{$result->created_at->format('l jS \\of F Y')}}</div>
