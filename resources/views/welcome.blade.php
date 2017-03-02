@@ -224,7 +224,7 @@
                                 <span class="event-name">Its Muzikal</span>
                                 <span class="event-description"></span>
                             </div>
-                        
+
                         </div>
                     </div>
 
@@ -458,7 +458,7 @@
 
             <h6 class="margin-b-50">Testimonials</h6>
 
-            <h1 class="margin-b-0"><strong>4</strong> years of experience - <strong>over 50</strong> happy clients!</h1>
+            <h1 class="margin-b-0"><strong>6</strong> years of experience - <strong>over 50</strong> happy clients!</h1>
             <h5 class="text-muted margin-b-60">Look at their opinions!</h5>
 
             <div class="row padding-lg">
@@ -477,6 +477,7 @@
                             </div>
                         </div>
                     </div>
+
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
@@ -505,8 +506,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
+
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
@@ -535,18 +535,17 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
+
                     <!-- Testimonial -->
                     <div class="testimonial testimonial-dark">
                         <div class="testimonial-content font-alt">
-                            "Heading to work with him again.Keep it up !"
+                            "I’ve had a great experience working with Shahrukh over my past few projects. He’s one of the very few developers I have found that can just straight in to a project and pick it up with very little guidance."
                         </div>
                         <div class="testimonial-author testimonial-with-photo">
                             <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="/assets/img/photos/testimonial-avatar04.jpg" alt="" /></div>
                             <div class="testimonial-author-txt">
-                                <span class="name">Michael George</span>
-                                <span class="caption text-secondary">SIPI</span>
+                                <span class="name">Stephen Wolfe</span>
+                                <span class="caption text-secondary">Interweb360 Ltd</span>
                             </div>
                         </div>
                     </div>
