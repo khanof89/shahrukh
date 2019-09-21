@@ -230,6 +230,7 @@ return [
         'Feed' => Roumen\Feed\Facades\Feed::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+	'Tracker' => 'PragmaRX\Tracker\Vendor\Laravel\Facade',
 
     ],
 
